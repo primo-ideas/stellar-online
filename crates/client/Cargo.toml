@@ -1,0 +1,8 @@
+[package]
+name = "stellar-client"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+stellar-shared.workspace = true
+bevy = { version = "0.20.1", default-features = false, features = ["3d", "ui"] }
